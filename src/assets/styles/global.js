@@ -22,6 +22,18 @@ body, button {
   font-family: 'Montserrat', sans-serif;
 }
 
+button{
+  cursor: pointer;
+}
+
+p, button{
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
 /* #root {
   max-width: 1200px;
   margin: 0 auto;
