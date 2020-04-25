@@ -8,7 +8,7 @@ export const Container = styled.div`
   header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0 4rem 0;
+    padding: 7rem 0 4rem 0;
     width: 90%;
     margin: 0 auto;
     align-items: center;
@@ -17,7 +17,7 @@ export const Container = styled.div`
     }
 
     #logo {
-      width: 16rem;
+      width: 20rem;
       margin-bottom: 0.5rem;
     }
 
@@ -97,7 +97,7 @@ export const HowToUseList = styled.ul`
 `;
 export const HomeSection = styled.section`
   text-align: center;
-  padding: 3rem 0 1.5rem 0;
+  padding: 7rem 0 1.5rem 0;
   color: #f7f7f7;
 
   p {
@@ -135,7 +135,6 @@ export const HomeBackground = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 54rem;
 `;
 export const Footer = styled.div`
   margin-top: 1rem;
@@ -144,5 +143,5 @@ export const Footer = styled.div`
   background-size: contain;
   height: 20rem;
   position: relative;
-  top: -2rem;
+  top: 2rem;
 `;
