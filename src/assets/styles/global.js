@@ -21,4 +21,10 @@ body, button {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
 }
+
+/* #root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+} */
 `;
