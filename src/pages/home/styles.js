@@ -106,7 +106,6 @@ export const HomeSection = styled.section`
   }
 
   h3 {
-    width: 20%;
     margin: 0 auto;
     text-align: center;
   }

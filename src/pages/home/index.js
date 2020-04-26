@@ -59,12 +59,7 @@ export default function Home() {
         <HomeSection>
           <h3>Sobre nós</h3>
           <p>
-            O Mia Ajuda foi com o intuito de aproximar pessoas que precisam de
-            ajuda com aqueles que desejam contribuir de alguma forma para
-            ajudá-las. Toda ajuda é bem-vinda, seja essa não material (ex. uma
-            palavra de carinho pode fazer alguém sorrir!), seja essa material
-            (ex. alguém pode estar passando fome ou sentindo frio...). Venha
-            fazer parte dessa rede social solidária!
+          O Mia Ajuda foi criado com o intuito de aproximar pessoas que precisam de ajuda com aqueles que desejam contribuir de alguma forma. Venha fazer parte dessa rede social solidária!
           </p>
           <button>Conheça a Equipe</button>
         </HomeSection>
