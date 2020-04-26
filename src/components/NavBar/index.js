@@ -18,9 +18,9 @@ export default function NavBar() {
                     </NavLink>
                 </div>
                 <div id="routeContent">
-                    <h2>Equipe</h2>
-                    <h2>Contato</h2>
-                    <h2>Apoio</h2>
+                    <NavLink id="navTitle" to="/team">Equipe</NavLink>
+                    <NavLink id="navTitle" to="/contact">Contato</NavLink>
+                    <NavLink id="navTitle" to="/support">Apoio</NavLink>
                 </div>
             </div>
         </Container>

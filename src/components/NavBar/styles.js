@@ -21,10 +21,20 @@ export const Container = styled.div`
     }
     
     #routeContent {
-      width: 30em;
-      display: flex;
-      justify-content: space-between;
-      color: #4b8ab9;
+      width: 35em;
+      
+      #navTitle {
+        color: #4b8ab9;
+        font-weight: bold;
+        margin-left: 2em;
+        font-size: 1.8em;
+        text-decoration: none;
+      }
+
+      #navTitle:hover {
+        color: #75A0CF;
+      }
+
     }
   }
 `;
