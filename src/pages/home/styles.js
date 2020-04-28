@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import { darken } from "polished";
+import styled from 'styled-components';
+import { darken } from 'polished';
 
-import background from "../../assets/images/HomeBackgrounds.svg";
-import footerimg from "../../assets/images/footerimg.png";
+import background from '../../assets/images/HomeBackgrounds.svg';
+import footerimg from '../../assets/images/footerimg.png';
 
 export const Container = styled.div`
   header {
@@ -28,19 +28,31 @@ export const Container = styled.div`
       justify-content: space-between;
       width: 35%;
       font-weight: 500;
+      align-items: center;
 
       p {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
       }
 
       div {
-        text-align: center;
-        width: 15rem;
         background-color: #4b8ab9;
-        padding: .8rem .6rem;
-        border-radius: .5rem;
         color: #f7f7f7;
+        border: none;
+        cursor: pointer;
+        padding: 1rem 1rem;
+        border-radius: 0.3rem;
         font-weight: 500;
+        box-shadow: 1px 1px 3px #35353535;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        width: 100%;
+
+        &:hover,
+        &:active {
+          transition: all 0.5s;
+          background: ${darken(0.1, '#4b8ab9')};
+          box-shadow: 1px 1px 5px 2px #35353535;
+        }
       }
     }
   }
@@ -51,6 +63,37 @@ export const Container = styled.div`
 
   h3 {
     text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 3rem;
+      div {
+        width: 100%;
+        p {
+          margin: 0;
+        }
+        div {
+          margin-bottom: 3rem;
+        }
+      }
+    }
+
+    div,
+    img {
+      width: 100%;
+    }
+
+    div {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      img {
+        width: 50%;
+      }
+    }
   }
 `;
 export const HowToUseList = styled.ul`
@@ -94,6 +137,15 @@ export const HowToUseList = styled.ul`
     color: #4b8ab9;
     font-weight: 500;
   }
+
+  @media only screen and (max-width: 600px) {
+    justify-content: center;
+    margin-bottom: 3rem;
+    li {
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+  }
 `;
 export const HomeSection = styled.section`
   text-align: center;
@@ -124,7 +176,7 @@ export const HomeSection = styled.section`
     &:hover,
     &:active {
       transition: all 0.5s;
-      background: ${darken(0.1, "#f7f7f7")};
+      background: ${darken(0.1, '#f7f7f7')};
       box-shadow: 1px 1px 5px 2px #35353535;
     }
   }
@@ -136,6 +188,11 @@ export const HomeBackground = styled.div`
   background-position: center;
 `;
 export const Footer = styled.div`
+  @media only screen and (max-width: 600px) {
+    background-size: cover;
+    height: 10rem;
+    background-repeat: no-repeat;
+  }
   margin-top: 1rem;
   width: 100%;
   background-image: url(${footerimg});
