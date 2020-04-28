@@ -14,6 +14,7 @@ export const Container = styled.div`
     align-items: center;
 
     #header-img {
+      cursor: pointer;
     }
 
     #logo {

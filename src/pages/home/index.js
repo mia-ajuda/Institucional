@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 
 import {
   Container,
@@ -6,49 +6,64 @@ import {
   HomeSection,
   Footer,
   HomeBackground,
-} from "./styles";
+} from './styles';
 
-import card1 from "../../assets/images/card1.svg";
-import card2 from "../../assets/images/card2.svg";
-import card3 from "../../assets/images/card3.svg";
-import card4 from "../../assets/images/card4.svg";
-import logoTitle from "../../assets/images/logotitle.png";
-import headerImg from "../../assets/images/headerimg.svg";
+import card1 from '../../assets/images/card1.svg';
+import card2 from '../../assets/images/card2.svg';
+import card3 from '../../assets/images/card3.svg';
+import card4 from '../../assets/images/card4.svg';
+import logoTitle from '../../assets/images/logotitle.png';
+import headerImg from '../../assets/images/headerimg.svg';
+
+import Modal from '../../components/Modal/Modal';
 
 export default function Home() {
+  const [openedModal, setOpenedModal] = useState(false);
   return (
     <Container>
+      <Modal modalClosed={() => setOpenedModal(false)} show={openedModal}>
+        ooooooooooi
+        <p>asdasidha</p>
+        <p>asdasidha</p>
+        <p>asdasidha</p>
+        <p>asdasidha</p>
+      </Modal>
       <header>
         <div>
-          <img id="logo" src={logoTitle} alt="logo" />
+          <img id='logo' src={logoTitle} alt='logo' />
           <p>Ajude pessoas perto de você e espalhe amor pelo mundo</p>
           <div>INSTALE NO ANDROID</div>
         </div>
-        <img id="header-img" src={headerImg} alt="banner" />
+        <img
+          id='header-img'
+          src={headerImg}
+          alt='banner'
+          onClick={() => setOpenedModal(true)}
+        />
       </header>
       <section>
-        <h3 className="title">Como o Mia Ajuda funciona</h3>
+        <h3 className='title'>Como o Mia Ajuda funciona</h3>
         <HowToUseList>
           <li>
-            <img src={card1} alt="card" />
+            <img src={card1} alt='card' />
             <p>
               Vocẽ solicita um pedido de <span>ajuda</span>
             </p>
           </li>
           <li>
-            <img src={card2} alt="card" />
+            <img src={card2} alt='card' />
             <p>
               Alguem oferece a <span>ajuda</span>
             </p>
           </li>
           <li>
-            <img src={card3} alt="card" />
+            <img src={card3} alt='card' />
             <p>
               Você aceita a <span>ajuda</span> oferecida
             </p>
           </li>
           <li>
-            <img src={card4} alt="card" />
+            <img src={card4} alt='card' />
             <p>
               Você é <span>ajudado</span>
             </p>
@@ -59,7 +74,9 @@ export default function Home() {
         <HomeSection>
           <h3>Sobre nós</h3>
           <p>
-          O Mia Ajuda foi criado com o intuito de aproximar pessoas que precisam de ajuda com aqueles que desejam contribuir de alguma forma. Venha fazer parte dessa rede social solidária!
+            O Mia Ajuda foi criado com o intuito de aproximar pessoas que
+            precisam de ajuda com aqueles que desejam contribuir de alguma
+            forma. Venha fazer parte dessa rede social solidária!
           </p>
           <button>Conheça a Equipe</button>
         </HomeSection>
