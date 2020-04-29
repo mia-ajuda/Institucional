@@ -12,13 +12,11 @@ export default function Contact() {
         <Container>
             <div>
                 <div>
-                    <div>
-                        <img src={contactImage} alt="contact" />
-                    </div>
-                    <div id="supportContent">
-                        <h1>Contato</h1>
-                        <p>Aqui se encontra todas as instituições que acredita na capacidade do Mia Ajuda em melhorar a vida das pessoas através da solidariedade.</p>
-                    </div>
+                    <img src={contactImage} alt="contact" />
+                </div>
+                <div id="contactContent">
+                    <h1>Contato</h1>
+                    <p>Aqui se encontra todas as instituições que acredita na capacidade do Mia Ajuda em melhorar a vida das pessoas através da solidariedade.</p>
                 </div>
             </div>
         </Container>
