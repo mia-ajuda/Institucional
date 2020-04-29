@@ -66,11 +66,16 @@ export const Container = styled.div`
     text-align: center;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     header {
       display: flex;
       flex-direction: column;
       padding-bottom: 3rem;
+
+      #logo{
+        width: 15rem;
+      }
+
       div {
         width: 100%;
         p {
@@ -78,6 +83,7 @@ export const Container = styled.div`
         }
         div {
           margin-bottom: 3rem;
+          width:80%;
         }
       }
     }
@@ -139,7 +145,7 @@ export const HowToUseList = styled.ul`
     font-weight: 500;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     justify-content: center;
     margin-bottom: 3rem;
     li {
@@ -189,7 +195,7 @@ export const HomeBackground = styled.div`
   background-position: center;
 `;
 export const Footer = styled.div`
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     background-size: cover;
     height: 10rem;
     background-repeat: no-repeat;
