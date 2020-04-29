@@ -30,14 +30,53 @@ export const Container = styled.div`
       }
 
       div {
+        width: 50%;
         img {
-          width: 45rem;
+          width: 100%;
         }
       }
     }
 
     #supporterContent {
       margin-top: 3em;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+      
+    div {
+      flex-direction: column;
+      
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      div{
+        flex-direction: column;
+        margin: 0;
+
+        div {
+          width: 70%;
+          align-self: center;
+          img {
+            width: 100%;
+          }
+        }
+        
+        
+        #supportContent {          
+          p {
+            text-align: center;
+            font-size: 1.2rem;
+          }
+        }
+
+      }
+
+      #supporterContent {
+        margin-top: 4em;
+      }
     }
   }
 `;
