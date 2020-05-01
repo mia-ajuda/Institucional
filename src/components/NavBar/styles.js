@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Navbar = styled.div`
   width: 100%;
   position: fixed;
   padding: 0.7em 4em;
@@ -11,18 +11,18 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
     #imageContent {
       align-self: left;
-      
+
       img {
         width: 3rem;
       }
     }
-    
+
     #routeContent {
       width: 35em;
-      
+
       #navTitle {
         color: #4b8ab9;
         font-weight: bold;
@@ -32,9 +32,53 @@ export const Container = styled.div`
       }
 
       #navTitle:hover {
-        color: #75A0CF;
+        color: #75a0cf;
       }
+    }
+  }
 
+  #menu {
+    display: none;
+    height: 2rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    #routeContent,
+    #image {
+      display: none;
+    }
+
+    #menu {
+      display: block;
+    }
+  }
+`;
+
+export const Sidebar = styled.div`
+  #content {
+    display: none;
+    padding: 1rem 2rem;
+    #navTitle {
+      color: #4b8ab9;
+      font-weight: bold;
+      font-size: 2em;
+      text-decoration: none;
+      display: flex;
+      margin-bottom: 1rem;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #content {
+      transition: transform 0.2s ease-in-out;
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 60vw;
+      height: 100vh;
+      background-color: #f7f7f7;
+      z-index: 110;
     }
   }
 `;
