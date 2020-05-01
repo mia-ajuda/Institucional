@@ -24,6 +24,7 @@ export const Container = styled.div`
       justify-content: center;
 
       h3 {
+        font-size: 3em;
         text-align: right;
       }
 

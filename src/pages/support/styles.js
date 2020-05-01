@@ -7,8 +7,8 @@ export const Container = styled.div`
   background-color: #f7f7f7;
 
   div {
-    h1 {
-      font-size: 4em;
+    h3 {
+      font-size: 3em;
     }
 
     div {
@@ -43,7 +43,7 @@ export const Container = styled.div`
     div {
       flex-direction: column;
 
-      h1 {
+      h3 {
         font-size: 2rem;
         text-align: center;
       }

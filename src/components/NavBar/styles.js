@@ -39,10 +39,11 @@ export const Navbar = styled.div`
 
   #menu {
     display: none;
-    height: 2rem;
+    height: 1.5rem;
   }
 
   @media only screen and (max-width: 768px) {
+    padding: 0.8em 0.8em;
     #routeContent,
     #image {
       display: none;
