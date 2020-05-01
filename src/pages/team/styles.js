@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
@@ -6,8 +6,7 @@ export const Container = styled.div`
   padding: 7rem 0 4rem 0;
   background-color: #f7f7f7;
 
-  div{
-    
+  div {
     h1 {
       font-size: 4em;
     }
@@ -16,16 +15,14 @@ export const Container = styled.div`
       display: flex;
       flex-direction: row;
       margin: 0 2.5em;
-      
+
       #teamContent {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-        
+
         p {
           padding: 1em 0em;
-          font-size: 2.5em;
         }
       }
 
@@ -43,16 +40,15 @@ export const Container = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
-      
     div {
       flex-direction: column;
-      
+
       h1 {
         font-size: 2rem;
         text-align: center;
       }
 
-      div{
+      div {
         flex-direction: column;
         margin: 0;
 
@@ -63,15 +59,12 @@ export const Container = styled.div`
             width: 100%;
           }
         }
-        
-        
-        #teamContent {          
+
+        #teamContent {
           p {
             text-align: center;
-            font-size: 1.2rem;
           }
         }
-
       }
 
       #membersContent {

@@ -31,7 +31,7 @@ p, button{
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 /* #root {
