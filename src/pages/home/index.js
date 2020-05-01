@@ -22,11 +22,12 @@ export default function Home() {
   return (
     <Container>
       <Modal modalClosed={() => setOpenedModal(false)} show={openedModal}>
-        ooooooooooi
-        <p>asdasidha</p>
-        <p>asdasidha</p>
-        <p>asdasidha</p>
-        <p>asdasidha</p>
+        <p>Video</p>
+        <p>Video</p>
+        <p>Video</p>
+        <p>Video</p>
+        <p>Video</p>
+        <p>Video</p>
       </Modal>
       <header>
         <div>
@@ -81,13 +82,30 @@ export default function Home() {
           <button>Conheça a Equipe</button>
         </HomeSection>
         <HomeSection>
-          <h3>Vamos melhorar o mundo?!</h3>
+          <h3>Faça parte dessa iciativa!</h3>
           <p>
             Você é uma empresa ou ONG que deseja ajudar e apoiar essa causa?
             Entre para nossa lista de apoiadores e torne o mundo cada vez melhor
             por meio da solidariedade!
           </p>
           <button>Vire um apoiador</button>
+        </HomeSection>
+        <HomeSection>
+          <h3>Vamos melhorar o mundo?!</h3>
+          <p>
+            <strong> Precisa de ajuda? </strong>O Mia Ajuda está aqui! Seu
+            pedido pode ser de ajuda não material (ex. entretenimento,
+            motivacional e de amparo psicológico) e/ou ainda material (ex.
+            recursos essenciais como alimentos, medicamentos e itens de higiene
+            pessoal). Seja bem-vindo!
+          </p>
+          <p>
+            <strong> Não sabe como ajudar? </strong>Conte uma história! Toque um
+            instrumento musical! Cante para alguém! Encontre um amigo para
+            conversar! Recite um poema! Doe um alimento! Colabore como queira! O
+            importante é ajudar!
+          </p>
+          <button className='android'>INSTALE NO ANDROID</button>
         </HomeSection>
         <Footer></Footer>
       </HomeBackground>

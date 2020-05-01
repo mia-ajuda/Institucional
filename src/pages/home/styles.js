@@ -72,7 +72,7 @@ export const Container = styled.div`
       flex-direction: column;
       padding-bottom: 3rem;
 
-      #logo{
+      #logo {
         width: 15rem;
       }
 
@@ -83,7 +83,7 @@ export const Container = styled.div`
         }
         div {
           margin-bottom: 3rem;
-          width:80%;
+          width: 80%;
         }
       }
     }
@@ -108,7 +108,7 @@ export const HowToUseList = styled.ul`
   justify-content: space-between;
   list-style: none;
   padding: 1.5rem 0 4rem 0;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   text-align: center;
   justify-content: baseline;
@@ -128,7 +128,7 @@ export const HowToUseList = styled.ul`
     }
 
     p {
-      width: 90%;
+      width: 80%;
     }
   }
 
@@ -169,12 +169,21 @@ export const HomeSection = styled.section`
     text-align: center;
   }
 
+  .android {
+    background-color: #F7EF6E;
+    color: #4b8ab9;
+    &:hover,
+    &:active {
+      background: ${darken(0.1, '#F7EF6E')};
+    }
+  }
+
   button {
     background-color: #f7f7f7;
     color: #4b8ab9;
+    padding: 0.8rem 1rem;
     border: none;
-    padding: 0.6rem 0.8rem;
-    border-radius: 0.3rem;
+    border-radius: 0.2rem;
     font-weight: 600;
     box-shadow: 1px 1px 3px #35353535;
     margin-top: 1.5rem;
