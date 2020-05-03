@@ -76,7 +76,7 @@ export const Sidebar = styled.div`
       position: fixed;
       top: 0;
       left: 0;
-      width: 60vw;
+      width: 230px;
       height: 100vh;
       background-color: #f7f7f7;
       z-index: 110;

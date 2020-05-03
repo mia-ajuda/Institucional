@@ -3,6 +3,7 @@ import React from 'react';
 import { Container } from './styles';
 
 import supportImage from '../../assets/images/support.svg';
+import supports from '../../utils/support';
 
 export default function Support() {
   return (
@@ -22,8 +23,11 @@ export default function Support() {
           </div>
         </div>
         <div id='supporterContent'>
-          <div>
-            <h3>Apoiadores</h3>
+          <h3>Apoiadores</h3>
+          <div className='card-container'>
+            {supports.map((support, idx) => (
+              <img src={support} alt='membro' key={idx} />
+            ))}
           </div>
         </div>
       </div>

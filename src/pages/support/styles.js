@@ -36,6 +36,27 @@ export const Container = styled.div`
 
     #supporterContent {
       margin-top: 3em;
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        margin: 2rem;
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row;
+      }
+
+      img {
+        border-radius: 50%;
+        width: 16rem;
+        height: 16rem;
+        object-fit: cover;
+        margin: 0.5rem;
+      }
     }
   }
 

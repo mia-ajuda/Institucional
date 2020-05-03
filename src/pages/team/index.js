@@ -3,6 +3,7 @@ import React from 'react';
 import { Container } from './styles';
 
 import teamImage from '../../assets/images/team.svg';
+import members from '../../utils/members';
 
 export default function Team() {
   return (
@@ -22,8 +23,11 @@ export default function Team() {
           </div>
         </div>
         <div id='membersContent'>
-          <div>
-            <h3>Membros</h3>
+          <h3>Membros</h3>
+          <div className='card-container'>
+            {members.map((member, idx) => (
+              <img src={member} alt='membro' key={idx} />
+            ))}
           </div>
         </div>
       </div>
