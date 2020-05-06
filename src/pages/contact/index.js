@@ -17,6 +17,7 @@ export default function Contact() {
             Aqui se encontra todas as instituições que acredita na capacidade do
             Mia Ajuda em melhorar a vida das pessoas através da solidariedade.
           </p>
+          <p style={{ marginTop: '.8rem', color: '#4b8ab9', fontWeight: 'bold' }}>miaajudaunb@gmail.com</p>
         </div>
       </div>
     </Container>

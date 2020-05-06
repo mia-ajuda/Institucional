@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 import {
   Container,
@@ -15,19 +15,29 @@ import card4 from '../../assets/images/card4.svg';
 import logoTitle from '../../assets/images/logotitle.png';
 import headerImg from '../../assets/images/headerimg.svg';
 
+import video from '../../assets/video.mp4';
+
 import Modal from '../../components/Modal/Modal';
 
 export default function Home() {
   const [openedModal, setOpenedModal] = useState(false);
+  const refVideo = useRef(null);
+
+  useEffect(() => {
+    if (openedModal) {
+      refVideo.current.play();
+    } else {
+      refVideo.current.pause();
+      refVideo.current.currentTime = 0;
+    }
+  }, [openedModal]);
+
   return (
     <Container>
       <Modal modalClosed={() => setOpenedModal(false)} show={openedModal}>
-        <p>Video</p>
-        <p>Video</p>
-        <p>Video</p>
-        <p>Video</p>
-        <p>Video</p>
-        <p>Video</p>
+        <video width='100%' height='100%' ref={refVideo} controls>
+          <source src={video} type='video/mp4' />
+        </video>
       </Modal>
       <header>
         <div>

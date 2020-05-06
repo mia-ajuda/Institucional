@@ -10,11 +10,15 @@ import luis from '../assets/images/membros/luis.jpg';
 import matheus from '../assets/images/membros/matheus.jpg';
 import welisson from '../assets/images/membros/welisson.jpg';
 import esio from '../assets/images/membros/esio.jpg';
+import Gabriel from '../assets/images/membros/gabriel.jpg';
+import EduardoLima from '../assets/images/membros/eduardoLima.jpg';
 
 const members = [
   bernado,
   eduardo,
+  EduardoLima,
   esio,
+  Gabriel,
   hugo,
   ivan,
   jobert,
