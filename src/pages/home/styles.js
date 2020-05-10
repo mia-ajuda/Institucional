@@ -13,6 +13,16 @@ export const Container = styled.div`
     margin: 0 auto;
     align-items: center;
 
+    .android-btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 75%;
+      font-size: 1rem;
+      align-items: center;
+      padding: .5rem !important;
+    }
+
     #header-img {
       cursor: pointer;
     }
@@ -170,8 +180,11 @@ export const HomeSection = styled.section`
   }
 
   .android {
-    background-color: #F7EF6E;
+    background-color: #f7ef6e;
     color: #4b8ab9;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     &:hover,
     &:active {
       background: ${darken(0.1, '#F7EF6E')};

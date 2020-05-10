@@ -12,8 +12,12 @@ import welisson from '../assets/images/membros/welisson.jpg';
 import esio from '../assets/images/membros/esio.jpg';
 import Gabriel from '../assets/images/membros/gabriel.jpg';
 import EduardoLima from '../assets/images/membros/eduardoLima.jpg';
+import Milene from '../assets/images/membros/milene.jpg';
+import Mauricio from '../assets/images/membros/mauricio.jpg';
 
 const members = [
+  Mauricio,
+  Milene,
   bernado,
   eduardo,
   EduardoLima,

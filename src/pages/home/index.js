@@ -19,6 +19,8 @@ import video from '../../assets/video.mp4';
 
 import Modal from '../../components/Modal/Modal';
 
+import androidIcon from '../../assets/images/android.png';
+
 export default function Home() {
   const [openedModal, setOpenedModal] = useState(false);
   const refVideo = useRef(null);
@@ -43,7 +45,15 @@ export default function Home() {
         <div>
           <img id='logo' src={logoTitle} alt='logo' />
           <p>Ajude pessoas perto de você e espalhe amor pelo mundo</p>
-          <div>INSTALE NO ANDROID</div>
+          <div className='android-btn'>
+            <img
+              id='logo'
+              src={androidIcon}
+              alt='androind'
+              style={{ width: '3rem' }}
+            />
+            INSTALE NO ANDROID
+          </div>
         </div>
         <img
           id='header-img'
@@ -115,7 +125,16 @@ export default function Home() {
             conversar! Recite um poema! Doe um alimento! Colabore como queira! O
             importante é ajudar!
           </p>
-          <button className='android'>INSTALE NO ANDROID</button>
+          <button className='android android-btn'>
+            {' '}
+            <img
+              id='logo'
+              src={androidIcon}
+              alt='androind'
+              style={{ width: '3rem' }}
+            />
+            <span> INSTALE NO ANDROID</span>
+          </button>
         </HomeSection>
         <Footer></Footer>
       </HomeBackground>
