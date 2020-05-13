@@ -63,18 +63,18 @@ export default function Home() {
         />
       </header>
       <section>
-        <h3 className='title'>Como o Mia Ajuda funciona</h3>
+        <h3 className='title'>Como o Mia Ajuda funciona?</h3>
         <HowToUseList>
           <li>
             <img src={card1} alt='card' />
             <p>
-              Vocẽ solicita um pedido de <span>ajuda</span>
+              Você solicita um pedido de <span>ajuda</span>
             </p>
           </li>
           <li>
             <img src={card2} alt='card' />
             <p>
-              Alguem oferece a <span>ajuda</span>
+              Alguém oferece a <span>ajuda</span>
             </p>
           </li>
           <li>
@@ -96,7 +96,7 @@ export default function Home() {
           <h3>Sobre nós</h3>
           <p>
             O Mia Ajuda foi criado com o intuito de aproximar pessoas que
-            precisam de ajuda com aqueles que desejam contribuir de alguma
+            precisam de ajuda daqueles que desejam contribuir de alguma
             forma. Venha fazer parte dessa rede social solidária!
           </p>
           <button>Conheça a Equipe</button>
@@ -108,10 +108,10 @@ export default function Home() {
             Entre para nossa lista de apoiadores e torne o mundo cada vez melhor
             por meio da solidariedade!
           </p>
-          <button>Vire um apoiador</button>
+          <button>Seja um apoiador</button>
         </HomeSection>
         <HomeSection>
-          <h3>Faça parte dessa iciativa!</h3>
+          <h3>Faça parte dessa iniciativa!</h3>
           <p>
             <strong> Precisa de ajuda? </strong>O Mia Ajuda está aqui! Seu
             pedido pode ser de ajuda não material (ex. entretenimento,
