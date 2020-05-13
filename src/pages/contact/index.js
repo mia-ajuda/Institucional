@@ -14,8 +14,8 @@ export default function Contact() {
         <div id='contactContent'>
           <h3>Contato</h3>
           <p>
-            Aqui se encontra todas as instituições que acredita na capacidade do
-            Mia Ajuda em melhorar a vida das pessoas através da solidariedade.
+            Quer sugerir, elogiar, colaborar? 
+            Entre em contato com o Mia Ajuda, e faça parte dessa rede solidária!
           </p>
           <p style={{ marginTop: '.8rem', color: '#4b8ab9', fontWeight: 'bold' }}>miaajudaunb@gmail.com</p>
         </div>
