@@ -18,15 +18,20 @@ import Pedro from '../assets/images/membros/pedro.jpg';
 import Guilherme from '../assets/images/membros/guilherme.jpg';
 import LeoSantos from '../assets/images/membros/leosantos.jpg';
 import Kamilla from '../assets/images/membros/kamilla.jpg';
+import Fernando from '../assets/images/membros/fernando.jpg';
 
 const members = [
   {
-    name: "Maurício Serrano",
+    name: "Prof Maurício Serrano",
     image: Mauricio
   },
   {
-    name: "Milene Serrano",
+    name: "Prof Milene Serrano",
     image: Milene
+  },
+  {
+    name: "Prof Fernando",
+    image: Fernando
   },
   {
     name: "Elias Bernardo",

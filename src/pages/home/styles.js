@@ -156,7 +156,7 @@ export const HowToUseList = styled.ul`
 `;
 export const HomeSection = styled.section`
   text-align: center;
-  padding: 6rem 0 1.5rem 0;
+  padding: 0rem 0 1.5rem 0;
   color: #f7f7f7;
 
   p {
