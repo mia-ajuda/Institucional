@@ -5,6 +5,7 @@ export const Navbar = styled.div`
   position: fixed;
   padding: 0.7em 4em;
   background-color: #f7f7f7;
+  z-index: 10;
 
   div {
     width: 100%;
