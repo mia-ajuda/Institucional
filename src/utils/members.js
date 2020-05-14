@@ -14,6 +14,10 @@ import Gabriel from '../assets/images/membros/gabriel.jpg';
 import EduardoLima from '../assets/images/membros/eduardoLima.jpg';
 import Milene from '../assets/images/membros/milene.jpg';
 import Mauricio from '../assets/images/membros/mauricio.jpg';
+import Pedro from '../assets/images/membros/pedro.jpg';
+import Guilherme from '../assets/images/membros/guilherme.jpg';
+import LeoSantos from '../assets/images/membros/leosantos.jpg';
+import Kamilla from '../assets/images/membros/kamilla.jpg';
 
 const members = [
   Mauricio,
@@ -23,14 +27,18 @@ const members = [
   EduardoLima,
   esio,
   Gabriel,
+  Guilherme,
   hugo,
   ivan,
   jobert,
   junior,
+  Kamilla,
   leo,
+  LeoSantos,
   lucas,
   luis,
   matheus,
+  Pedro,
   welisson,
 ];
 
