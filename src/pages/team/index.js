@@ -15,7 +15,7 @@ export default function Team() {
             <p>
               O Mia Ajuda é um projeto de cunho solidário, sem fins lucrativos,
               criado e desenvolvido por professores e estudantes da Faculdade do
-              Gama (FGA), da Universidade de Brasília (UnB)
+              Gama (FGA), da Universidade de Brasília (UnB).
             </p>
           </div>
           <div>

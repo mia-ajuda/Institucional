@@ -13,9 +13,8 @@ export default function Support() {
           <div id='supportContent'>
             <h3>Apoio</h3>
             <p>
-              Aqui se encontra todas as instituições que acredita na capacidade
-              do Mia Ajuda em melhorar a vida das pessoas através da
-              solidariedade.
+              Aqui, constam as instituições que acreditam na capacidade do Mia Ajuda 
+              em melhorar a vida das pessoas através da solidariedade.
             </p>
           </div>
           <div>
