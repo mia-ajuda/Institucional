@@ -69,6 +69,7 @@ export const Container = styled.div`
   }
 
   .title {
+    margin-top: 3rem;
     color: #4b8ab9;
     margin-bottom: 2rem;
   }
@@ -130,7 +131,6 @@ export const HowToUseList = styled.ul`
     flex: 1;
     justify-content: space-around;
   }
-
 
   img {
     margin-bottom: 1rem;

@@ -22,13 +22,14 @@ import Fernando from '../assets/images/membros/fernando.jpg';
 
 const members = [
   {
-    name: 'Prof Maurício Serrano',
-    image: Mauricio,
-  },
-  {
     name: 'Prof Milene Serrano',
     image: Milene,
   },
+  {
+    name: 'Prof Maurício Serrano',
+    image: Mauricio,
+  },
+
   {
     name: 'Prof Fernando Cruz',
     image: Fernando,
