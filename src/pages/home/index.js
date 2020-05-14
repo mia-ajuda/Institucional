@@ -24,7 +24,6 @@ import Modal from '../../components/Modal/Modal';
 import androidIcon from '../../assets/images/android.png';
 import androidBlueIcon from '../../assets/images/android-blue.png';
 
-
 export default function Home() {
   const [openedModal, setOpenedModal] = useState(false);
   const refVideo = useRef(null);
@@ -48,16 +47,27 @@ export default function Home() {
       <header>
         <div>
           <img id='logo' src={logoTitle} alt='logo' />
-          <p id="main-text">Ajude pessoas perto de você e espalhe amor pelo mundo</p>
-          {/* <button className='android-btn' disabled >
+          <p id='main-text'>
+            Ajude pessoas perto de você e espalhe amor pelo mundo
+          </p>
+          <button
+            className='android-btn'
+            disabled
+            style={{
+              backgroundColor: '#3b6f96',
+              color: '#bbb',
+              cursor: 'not-allowed',
+            }}
+          >
             <img
               id='logo'
               src={androidIcon}
               alt='androind'
               style={{ width: '1.5rem', marginRight: '1rem' }}
             />
-            INSTALE NO ANDROID
-          </button> */}
+            {/* INSTALE NO ANDROID */}
+            EM BREVE
+          </button>
         </div>
         <img
           id='header-img'
@@ -104,10 +114,12 @@ export default function Home() {
           <h3>Sobre nós</h3>
           <p>
             O Mia Ajuda foi criado com o intuito de aproximar pessoas que
-            precisam de ajuda daqueles que desejam contribuir de alguma
-            forma. Venha fazer parte dessa rede social solidária!
+            precisam de ajuda daqueles que desejam contribuir de alguma forma.
+            Venha fazer parte dessa rede social solidária!
           </p>
-          <NavLink to="/team" style={{textDecoration: "none"}} ><button className="white-btn">Conheça a Equipe</button></NavLink>
+          <NavLink to='/team' style={{ textDecoration: 'none' }}>
+            <button className='white-btn'>Conheça a Equipe</button>
+          </NavLink>
         </HomeSection>
         <HomeSection>
           <h3>Vamos melhorar o mundo?!</h3>
@@ -116,7 +128,9 @@ export default function Home() {
             Entre para nossa lista de apoiadores e torne o mundo cada vez melhor
             por meio da solidariedade!
           </p>
-          <NavLink to="/contact" style={{textDecoration: "none"}} ><button className="white-btn">Seja um apoiador</button></NavLink>
+          <NavLink to='/contact' style={{ textDecoration: 'none' }}>
+            <button className='white-btn'>Seja um apoiador</button>
+          </NavLink>
         </HomeSection>
         <HomeSection>
           <h3>Faça parte dessa iniciativa!</h3>
@@ -133,15 +147,23 @@ export default function Home() {
             conversar! Recite um poema! Doe um alimento! Colabore como queira! O
             importante é ajudar!
           </p>
-          {/* <button className='android-btn' >
+          <button
+            className='android-btn'
+            style={{
+              backgroundColor: '#e0d867',
+              color: '#3b6f96',
+              cursor: 'not-allowed',
+            }}
+          >
             <img
               id='logo'
               src={androidBlueIcon}
               alt='androind'
               style={{ width: '1.5rem', marginRight: '1rem' }}
             />
-            INSTALE NO ANDROID
-          </button> */}
+            {/* INSTALE NO ANDROID */}
+            EM BREVE
+          </button>
         </HomeSection>
         <Footer></Footer>
       </HomeBackground>

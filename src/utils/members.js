@@ -22,89 +22,89 @@ import Fernando from '../assets/images/membros/fernando.jpg';
 
 const members = [
   {
-    name: "Prof Maurício Serrano",
-    image: Mauricio
+    name: 'Prof Maurício Serrano',
+    image: Mauricio,
   },
   {
-    name: "Prof Milene Serrano",
-    image: Milene
+    name: 'Prof Milene Serrano',
+    image: Milene,
   },
   {
-    name: "Prof Fernando",
-    image: Fernando
+    name: 'Prof Fernando Cruz',
+    image: Fernando,
   },
   {
-    name: "Elias Bernardo",
-    image: bernado
+    name: 'Elias Bernardo',
+    image: bernado,
   },
   {
-    name: "Eduardo Lima",
-    image: eduardo
+    name: 'Eduardo Lima',
+    image: eduardo,
   },
   {
-    name: "Eduardo Ribeiro",
-    image: EduardoLima
+    name: 'Eduardo Ribeiro',
+    image: EduardoLima,
   },
   {
-    name: "Ésio Freitas",
-    image: esio
+    name: 'Ésio Freitas',
+    image: esio,
   },
   {
-    name: "Gabriel Pereira",
-    image: Gabriel
+    name: 'Gabriel Pereira',
+    image: Gabriel,
   },
   {
-    name: "Guilherme Rosa",
-    image: Guilherme
+    name: 'Guilherme Rosa',
+    image: Guilherme,
   },
   {
-    name: "Hugo Sobral",
-    image: hugo
+    name: 'Hugo Sobral',
+    image: hugo,
   },
   {
-    name: "Ivan Diniz",
-    image: ivan
+    name: 'Ivan Diniz',
+    image: ivan,
   },
   {
-    name: "Joberth Costa",
-    image: jobert
+    name: 'Joberth Costa',
+    image: jobert,
   },
   {
-    name: "Dâmaso Pereira",
-    image: junior
+    name: 'Dâmaso Pereira',
+    image: junior,
   },
   {
-    name: "Kamilla Souza",
-    image: Kamilla
+    name: 'Kamilla Souza',
+    image: Kamilla,
   },
   {
-    name: "Leonardo Gomes",
-    image: leo
+    name: 'Leonardo Gomes',
+    image: leo,
   },
   {
-    name: "Leonardo Santos",
-    image: LeoSantos
+    name: 'Leonardo Santos',
+    image: LeoSantos,
   },
   {
-    name: "Lucas Souza",
-    image: lucas
+    name: 'Lucas Souza',
+    image: lucas,
   },
   {
-    name: "Luís Henrique",
-    image: luis
+    name: 'Luís Henrique',
+    image: luis,
   },
   {
-    name: "Matheus Estanislau",
-    image: matheus
+    name: 'Matheus Estanislau',
+    image: matheus,
   },
   {
-    name: "Pedro Féo",
-    image: Pedro
+    name: 'Pedro Féo',
+    image: Pedro,
   },
   {
-    name: "Welisson Regis",
-    image: welisson
+    name: 'Welisson Regis',
+    image: welisson,
   },
-]
+];
 
 export default members;
