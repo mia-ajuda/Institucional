@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Container } from './styles';
 
+import HoverPicture from '../../components/HoverPicture/index'
+
 import teamImage from '../../assets/images/team.svg';
 import members from '../../utils/members';
 
@@ -9,7 +11,7 @@ export default function Team() {
   return (
     <Container>
       <div>
-        <div>
+        <div className="team-area">
           <div id='teamContent'>
             <h3>Equipe</h3>
             <p>
@@ -19,14 +21,14 @@ export default function Team() {
             </p>
           </div>
           <div>
-            <img src={teamImage} alt='team' />
+            <img id="team-img" src={teamImage} alt='team' />
           </div>
         </div>
         <div id='membersContent'>
           <h3>Membros</h3>
           <div className='card-container'>
             {members.map((member, idx) => (
-              <img src={member} alt='membro' key={idx} />
+              <HoverPicture name={member.name} image={member.image} key={idx}/>
             ))}
           </div>
         </div>

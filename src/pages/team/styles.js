@@ -14,12 +14,16 @@ export const Container = styled.div`
     div {
       display: flex;
       flex-direction: row;
-      margin: 0 2.5em;
+
+      #team-img {
+        margin-right: 2.5rem;
+      }
 
       #teamContent {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 2.5rem;
 
         p {
           padding: 1em 0em;
@@ -43,13 +47,6 @@ export const Container = styled.div`
         flex-direction: row;
       }
 
-      img {
-        border-radius: 50%;
-        width: 16rem;  
-        height: 16rem;  
-        object-fit: cover;
-        margin: .5rem;
-      }
     }
   }
 

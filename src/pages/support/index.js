@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Container } from './styles';
 
+import HoverPicture from '../../components/HoverPicture/index'
 import supportImage from '../../assets/images/support.svg';
 import supports from '../../utils/support';
 
@@ -18,14 +19,14 @@ export default function Support() {
             </p>
           </div>
           <div>
-            <img src={supportImage} alt='support' />
+            <img id="support-img" src={supportImage} alt='support' />
           </div>
         </div>
         <div id='supporterContent'>
           <h3>Apoiadores</h3>
           <div className='card-container'>
             {supports.map((support, idx) => (
-              <img src={support} alt='membro' key={idx} />
+              <HoverPicture name={support.name} image={support.image} key={idx} />
             ))}
           </div>
         </div>

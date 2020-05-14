@@ -20,26 +20,86 @@ import LeoSantos from '../assets/images/membros/leosantos.jpg';
 import Kamilla from '../assets/images/membros/kamilla.jpg';
 
 const members = [
-  Mauricio,
-  Milene,
-  bernado,
-  eduardo,
-  EduardoLima,
-  esio,
-  Gabriel,
-  Guilherme,
-  hugo,
-  ivan,
-  jobert,
-  junior,
-  Kamilla,
-  leo,
-  LeoSantos,
-  lucas,
-  luis,
-  matheus,
-  Pedro,
-  welisson,
-];
+  {
+    name: "Maurício",
+    image: Mauricio
+  },
+  {
+    name: "Milene",
+    image: Milene
+  },
+  {
+    name: "Elias Bernardo",
+    image: bernado
+  },
+  {
+    name: "Eduardo",
+    image: eduardo
+  },
+  {
+    name: "Eduardo Lima",
+    image: EduardoLima
+  },
+  {
+    name: "Éso Freitas",
+    image: esio
+  },
+  {
+    name: "Gabriel",
+    image: Gabriel
+  },
+  {
+    name: "Guilherme Rosa",
+    image: Guilherme
+  },
+  {
+    name: "Hugo",
+    image: hugo
+  },
+  {
+    name: "Ivan Diniz",
+    image: ivan
+  },
+  {
+    name: "Jobert",
+    image: jobert
+  },
+  {
+    name: "Júnior",
+    image: junior
+  },
+  {
+    name: "Kamilla",
+    image: Kamilla
+  },
+  {
+    name: "Leonardo",
+    image: leo
+  },
+  {
+    name: "Leonardo Santos",
+    image: LeoSantos
+  },
+  {
+    name: "Lucas",
+    image: lucas
+  },
+  {
+    name: "Luis",
+    image: luis
+  },
+  {
+    name: "Matheus",
+    image: matheus
+  },
+  {
+    name: "Pedro Féo",
+    image: Pedro
+  },
+  {
+    name: "Welisson",
+    image: welisson
+  },
+]
 
 export default members;
