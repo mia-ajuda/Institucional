@@ -17,6 +17,7 @@ import Mauricio from '../assets/images/membros/mauricio.jpg';
 import Pedro from '../assets/images/membros/pedro.jpg';
 import Guilherme from '../assets/images/membros/guilherme.jpg';
 import LeoSantos from '../assets/images/membros/leosantos.jpg';
+import Kamilla from '../assets/images/membros/kamilla.jpg';
 
 const members = [
   Mauricio,
@@ -31,6 +32,7 @@ const members = [
   ivan,
   jobert,
   junior,
+  Kamilla,
   leo,
   LeoSantos,
   lucas,
