@@ -17,7 +17,7 @@ export default function Contact() {
             Quer sugerir, elogiar, colaborar? 
             Entre em contato com o Mia Ajuda, e faça parte dessa rede solidária!
           </p>
-          <p style={{ marginTop: '.8rem', color: '#4b8ab9', fontWeight: 'bold' }}>miaajudaunb@gmail.com</p>
+          <a className="emailLink" href = "mailto: miaajudaunb@gmail.com">miaajudaunb@gmail.com</a>
         </div>
       </div>
     </Container>

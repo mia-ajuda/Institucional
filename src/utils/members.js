@@ -20,26 +20,86 @@ import LeoSantos from '../assets/images/membros/leosantos.jpg';
 import Kamilla from '../assets/images/membros/kamilla.jpg';
 
 const members = [
-  Mauricio,
-  Milene,
-  bernado,
-  eduardo,
-  EduardoLima,
-  esio,
-  Gabriel,
-  Guilherme,
-  hugo,
-  ivan,
-  jobert,
-  junior,
-  Kamilla,
-  leo,
-  LeoSantos,
-  lucas,
-  luis,
-  matheus,
-  Pedro,
-  welisson,
-];
+  {
+    name: "Maurício Serrano",
+    image: Mauricio
+  },
+  {
+    name: "Milene Serrano",
+    image: Milene
+  },
+  {
+    name: "Elias Bernardo",
+    image: bernado
+  },
+  {
+    name: "Eduardo Lima",
+    image: eduardo
+  },
+  {
+    name: "Eduardo Ribeiro",
+    image: EduardoLima
+  },
+  {
+    name: "Ésio Freitas",
+    image: esio
+  },
+  {
+    name: "Gabriel Pereira",
+    image: Gabriel
+  },
+  {
+    name: "Guilherme Rosa",
+    image: Guilherme
+  },
+  {
+    name: "Hugo Sobral",
+    image: hugo
+  },
+  {
+    name: "Ivan Diniz",
+    image: ivan
+  },
+  {
+    name: "Joberth Costa",
+    image: jobert
+  },
+  {
+    name: "Dâmaso Pereira",
+    image: junior
+  },
+  {
+    name: "Kamilla Souza",
+    image: Kamilla
+  },
+  {
+    name: "Leonardo Gomes",
+    image: leo
+  },
+  {
+    name: "Leonardo Santos",
+    image: LeoSantos
+  },
+  {
+    name: "Lucas Souza",
+    image: lucas
+  },
+  {
+    name: "Luís Henrique",
+    image: luis
+  },
+  {
+    name: "Matheus Estanislau",
+    image: matheus
+  },
+  {
+    name: "Pedro Féo",
+    image: Pedro
+  },
+  {
+    name: "Welisson Regis",
+    image: welisson
+  },
+]
 
 export default members;

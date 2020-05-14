@@ -14,12 +14,16 @@ export const Container = styled.div`
     div {
       display: flex;
       flex-direction: row;
-      margin: 0 2.5em;
+
+      #team-img {
+        margin-right: 2.5rem;
+      }
 
       #teamContent {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 2.5rem;
 
         p {
           padding: 1em 0em;
@@ -37,28 +41,17 @@ export const Container = styled.div`
       }
 
       .card-container {
+        margin: 0 1.5rem;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: row;
       }
 
-      img {
-        border-radius: 50%;
-        width: 16rem;  
-        height: 16rem;  
-        object-fit: cover;
-        margin: .5rem;
-      }
     }
   }
 
   @media only screen and (max-width: 768px) {
-    .card-container {
-      img {
-        min-width: 30%;
-      }
-    }
     div {
       flex-direction: column;
 
@@ -69,17 +62,23 @@ export const Container = styled.div`
 
       div {
         flex-direction: column;
-        margin: 0;
+        align-items: center;
 
         div {
-          width: 70%;
           align-self: center;
           img {
             width: 100%;
           }
         }
 
+        #team-img {
+          margin-right: 0;
+          width: 70%;
+        }
+
         #teamContent {
+          width: 70%;
+          margin-left: 0;
           p {
             text-align: center;
           }
@@ -88,6 +87,10 @@ export const Container = styled.div`
 
       #membersContent {
         margin-top: 4em;
+
+        .card-container {
+          margin: 0 .5rem;
+        }
       }
     }
   }

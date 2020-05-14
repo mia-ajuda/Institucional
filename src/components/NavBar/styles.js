@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const Navbar = styled.div`
   width: 100%;
   position: fixed;
-  padding: 0.7em 4em;
+  padding: 0.7em 2.5em;
   background-color: #f7f7f7;
+  z-index: 10;
 
   div {
     width: 100%;

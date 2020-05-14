@@ -8,6 +8,8 @@ import {
   HomeBackground,
 } from './styles';
 
+import { NavLink } from 'react-router-dom';
+
 import card1 from '../../assets/images/card1.svg';
 import card2 from '../../assets/images/card2.svg';
 import card3 from '../../assets/images/card3.svg';
@@ -20,6 +22,8 @@ import video from '../../assets/video.mp4';
 import Modal from '../../components/Modal/Modal';
 
 import androidIcon from '../../assets/images/android.png';
+import androidBlueIcon from '../../assets/images/android-blue.png';
+
 
 export default function Home() {
   const [openedModal, setOpenedModal] = useState(false);
@@ -44,16 +48,16 @@ export default function Home() {
       <header>
         <div>
           <img id='logo' src={logoTitle} alt='logo' />
-          <p>Ajude pessoas perto de você e espalhe amor pelo mundo</p>
-          <div className='android-btn'>
+          <p id="main-text">Ajude pessoas perto de você e espalhe amor pelo mundo</p>
+          {/* <button className='android-btn' disabled >
             <img
               id='logo'
               src={androidIcon}
               alt='androind'
-              style={{ width: '3rem' }}
+              style={{ width: '1.5rem', marginRight: '1rem' }}
             />
             INSTALE NO ANDROID
-          </div>
+          </button> */}
         </div>
         <img
           id='header-img'
@@ -65,30 +69,34 @@ export default function Home() {
       <section>
         <h3 className='title'>Como o Mia Ajuda funciona?</h3>
         <HowToUseList>
-          <li>
-            <img src={card1} alt='card' />
-            <p>
-              Você solicita um pedido de <span>ajuda</span>
-            </p>
-          </li>
-          <li>
-            <img src={card2} alt='card' />
-            <p>
-              Alguém oferece a <span>ajuda</span>
-            </p>
-          </li>
-          <li>
-            <img src={card3} alt='card' />
-            <p>
-              Você aceita a <span>ajuda</span> oferecida
-            </p>
-          </li>
-          <li>
-            <img src={card4} alt='card' />
-            <p>
-              Você é <span>ajudado</span>
-            </p>
-          </li>
+          <div>
+            <li>
+              <img src={card1} alt='card' />
+              <p>
+                Você solicita um pedido de <span>ajuda</span>
+              </p>
+            </li>
+            <li>
+              <img src={card2} alt='card' />
+              <p>
+                Alguém oferece a <span>ajuda</span>
+              </p>
+            </li>
+          </div>
+          <div>
+            <li>
+              <img src={card3} alt='card' />
+              <p>
+                Você aceita a <span>ajuda</span> oferecida
+              </p>
+            </li>
+            <li>
+              <img src={card4} alt='card' />
+              <p>
+                Você é <span>ajudado</span>
+              </p>
+            </li>
+          </div>
         </HowToUseList>
       </section>
       <HomeBackground>
@@ -99,7 +107,7 @@ export default function Home() {
             precisam de ajuda daqueles que desejam contribuir de alguma
             forma. Venha fazer parte dessa rede social solidária!
           </p>
-          <button>Conheça a Equipe</button>
+          <NavLink to="/team" style={{textDecoration: "none"}} ><button className="white-btn">Conheça a Equipe</button></NavLink>
         </HomeSection>
         <HomeSection>
           <h3>Vamos melhorar o mundo?!</h3>
@@ -108,7 +116,7 @@ export default function Home() {
             Entre para nossa lista de apoiadores e torne o mundo cada vez melhor
             por meio da solidariedade!
           </p>
-          <button>Seja um apoiador</button>
+          <NavLink to="/contact" style={{textDecoration: "none"}} ><button className="white-btn">Seja um apoiador</button></NavLink>
         </HomeSection>
         <HomeSection>
           <h3>Faça parte dessa iniciativa!</h3>
@@ -125,16 +133,15 @@ export default function Home() {
             conversar! Recite um poema! Doe um alimento! Colabore como queira! O
             importante é ajudar!
           </p>
-          <button className='android android-btn'>
-            {' '}
+          {/* <button className='android-btn' >
             <img
               id='logo'
-              src={androidIcon}
+              src={androidBlueIcon}
               alt='androind'
-              style={{ width: '3rem' }}
+              style={{ width: '1.5rem', marginRight: '1rem' }}
             />
-            <span> INSTALE NO ANDROID</span>
-          </button>
+            INSTALE NO ANDROID
+          </button> */}
         </HomeSection>
         <Footer></Footer>
       </HomeBackground>
