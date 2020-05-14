@@ -21,11 +21,11 @@ import Kamilla from '../assets/images/membros/kamilla.jpg';
 
 const members = [
   {
-    name: "Maurício",
+    name: "Maurício Serrano",
     image: Mauricio
   },
   {
-    name: "Milene",
+    name: "Milene Serrano",
     image: Milene
   },
   {
@@ -33,19 +33,19 @@ const members = [
     image: bernado
   },
   {
-    name: "Eduardo",
+    name: "Eduardo Lima",
     image: eduardo
   },
   {
-    name: "Eduardo Lima",
+    name: "Eduardo Ribeiro",
     image: EduardoLima
   },
   {
-    name: "Éso Freitas",
+    name: "Ésio Freitas",
     image: esio
   },
   {
-    name: "Gabriel",
+    name: "Gabriel Pereira",
     image: Gabriel
   },
   {
@@ -53,7 +53,7 @@ const members = [
     image: Guilherme
   },
   {
-    name: "Hugo",
+    name: "Hugo Sobral",
     image: hugo
   },
   {
@@ -61,19 +61,19 @@ const members = [
     image: ivan
   },
   {
-    name: "Jobert",
+    name: "Joberth Costa",
     image: jobert
   },
   {
-    name: "Júnior",
+    name: "Dâmaso Pereira",
     image: junior
   },
   {
-    name: "Kamilla",
+    name: "Kamilla Souza",
     image: Kamilla
   },
   {
-    name: "Leonardo",
+    name: "Leonardo Gomes",
     image: leo
   },
   {
@@ -81,15 +81,15 @@ const members = [
     image: LeoSantos
   },
   {
-    name: "Lucas",
+    name: "Lucas Souza",
     image: lucas
   },
   {
-    name: "Luis",
+    name: "Luís Henrique",
     image: luis
   },
   {
-    name: "Matheus",
+    name: "Matheus Estanislau",
     image: matheus
   },
   {
@@ -97,7 +97,7 @@ const members = [
     image: Pedro
   },
   {
-    name: "Welisson",
+    name: "Welisson Regis",
     image: welisson
   },
 ]
