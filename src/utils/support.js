@@ -3,7 +3,7 @@ import reactit from '../assets/images/supports/react-it.png';
 
 const supports = [
     {
-        name: 'Universidade de Brasília',
+        name: 'UnB',
         image: unb
     },
     {

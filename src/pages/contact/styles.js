@@ -9,12 +9,12 @@ export const Container = styled.div`
   div {
     display: flex;
     flex-direction: row;
-    margin: 0 2.5em;
 
     div {
       width: 50%;
       img {
         width: 100%;
+        margin: 0 2.5rem;
       }
     }
 
@@ -22,6 +22,17 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin: 0 2.5rem;
+
+      .emailLink {
+        display: inline-block;
+        padding: 1em 0em;
+        text-align: right;
+        font-size: 2em;
+        margin-top: .8rem;
+        color: #4b8ab9;
+        font-weight: bold
+      }
 
       h3 {
         font-size: 3em;
@@ -45,11 +56,17 @@ export const Container = styled.div`
         align-self: center;
         img {
           width: 100%;
+          margin: 0;
         }
       }
 
       #contactContent {
         margin-top: 3rem;
+
+        .emailLink {
+          font-size: 1.2rem;
+          text-align: center;
+        }
 
         h3 {
           text-align: center;

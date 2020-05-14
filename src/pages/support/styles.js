@@ -62,18 +62,25 @@ export const Container = styled.div`
 
       div {
         flex-direction: column;
+        align-items: center;
         margin: 0;
 
         div {
-          width: 70%;
           align-self: center;
           img {
             width: 100%;
           }
         }
 
+        #support-img {
+          width: 70%;
+          margin-right: 0;
+        }
+
         #supportContent {
+          margin-left: 0;
           p {
+            width: 70%;
             text-align: center;
           }
         }
@@ -81,6 +88,10 @@ export const Container = styled.div`
 
       #supporterContent {
         margin-top: 4em;
+
+        .card-container {
+          width: 80%;
+        }
       }
     }
   }

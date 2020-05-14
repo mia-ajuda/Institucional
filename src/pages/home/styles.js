@@ -7,20 +7,40 @@ import footerimg from '../../assets/images/footerimg.png';
 export const Container = styled.div`
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 7rem 0 4rem 0;
     width: 90%;
+    height: 90vh;
     margin: 0 auto;
     align-items: center;
 
+    #main-text {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
     .android-btn {
+      background-color: #4b8ab9;
+      color: #f7f7f7;
+      border: none;
+      cursor: pointer;
+      padding: 1rem 1rem;
+      border-radius: 0.3rem;
+      font-weight: 500;
+      box-shadow: 1px 1px 3px #35353535;
+      margin-top: 1rem;
+      font-size: 1.1rem;
+
       display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 75%;
-      font-size: 1rem;
+      justify-content: center;
       align-items: center;
-      padding: .5rem !important;
+
+      &:hover,
+      &:active {
+        transition: all 0.5s;
+        background: ${darken(0.1, '#4b8ab9')};
+        box-shadow: 1px 1px 5px 2px #35353535;
+      }
     }
 
     #header-img {
@@ -29,47 +49,28 @@ export const Container = styled.div`
 
     #logo {
       width: 20rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0;
     }
 
     div {
-      height: 100%;
+      height: 30vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 35%;
+      max-width: 400px;
       font-weight: 500;
       align-items: center;
 
       p {
         margin-bottom: 1rem;
       }
-
-      div {
-        background-color: #4b8ab9;
-        color: #f7f7f7;
-        border: none;
-        cursor: pointer;
-        padding: 1rem 1rem;
-        border-radius: 0.3rem;
-        font-weight: 500;
-        box-shadow: 1px 1px 3px #35353535;
-        margin-top: 1rem;
-        font-size: 1.1rem;
-        width: 100%;
-
-        &:hover,
-        &:active {
-          transition: all 0.5s;
-          background: ${darken(0.1, '#4b8ab9')};
-          box-shadow: 1px 1px 5px 2px #35353535;
-        }
-      }
     }
   }
 
   .title {
     color: #4b8ab9;
+    margin-bottom: 2rem;
   }
 
   h3 {
@@ -80,7 +81,6 @@ export const Container = styled.div`
     header {
       display: flex;
       flex-direction: column;
-      padding-bottom: 3rem;
 
       #logo {
         width: 15rem;
@@ -88,6 +88,7 @@ export const Container = styled.div`
 
       div {
         width: 100%;
+        height: 100%;
         p {
           margin: 0;
         }
@@ -108,7 +109,7 @@ export const Container = styled.div`
       align-items: center;
       text-align: center;
       img {
-        width: 50%;
+        width: 80%;
       }
     }
   }
@@ -121,26 +122,15 @@ export const HowToUseList = styled.ul`
   width: 95%;
   margin: 0 auto;
   text-align: center;
-  justify-content: baseline;
+  justify-content: center;
   flex-wrap: wrap;
 
-  li {
-    padding: 0;
-    margin: 0;
+  div {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    img {
-      height: 15rem;
-      margin: 0 1rem;
-      margin: 1rem;
-    }
-
-    p {
-      width: 80%;
-    }
+    flex: 1;
+    justify-content: space-around;
   }
+
 
   img {
     margin-bottom: 1rem;
@@ -152,7 +142,7 @@ export const HowToUseList = styled.ul`
 
   span {
     color: #4b8ab9;
-    font-weight: 500;
+    font-weight: bold;
   }
 
   @media only screen and (max-width: 768px) {
@@ -166,12 +156,13 @@ export const HowToUseList = styled.ul`
 `;
 export const HomeSection = styled.section`
   text-align: center;
-  padding: 4rem 0 1.5rem 0;
+  padding: 6rem 0 1.5rem 0;
   color: #f7f7f7;
 
   p {
-    margin: 1rem auto;
+    margin: 3rem auto;
     width: 70%;
+    max-width: 1000px;
   }
 
   h3 {
@@ -179,38 +170,58 @@ export const HomeSection = styled.section`
     text-align: center;
   }
 
-  .android {
-    background-color: #f7ef6e;
+  .white-btn {
+    margin: auto;
+    background-color: #fff;
     color: #4b8ab9;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    &:hover,
-    &:active {
-      background: ${darken(0.1, '#F7EF6E')};
-    }
-  }
-
-  button {
-    background-color: #f7f7f7;
-    color: #4b8ab9;
-    padding: 0.8rem 1rem;
     border: none;
-    border-radius: 0.2rem;
-    font-weight: 600;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
     box-shadow: 1px 1px 3px #35353535;
-    margin-top: 1.5rem;
-    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover,
     &:active {
       transition: all 0.5s;
-      background: ${darken(0.1, '#f7f7f7')};
+      background: ${darken(0.1, '#fff')};
+      box-shadow: 1px 1px 5px 2px #35353535;
+    }
+  }
+
+  .android-btn {
+    margin: auto;
+    background-color: #f7ef6e;
+    color: #4b8ab9;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px #35353535;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover,
+    &:active {
+      transition: all 0.5s;
+      background: ${darken(0.1, '#f7ef6e')};
       box-shadow: 1px 1px 5px 2px #35353535;
     }
   }
 `;
 export const HomeBackground = styled.div`
+  padding-top: 4rem;
   background-image: url(${background});
   background-repeat: no-repeat;
   background-size: cover;
