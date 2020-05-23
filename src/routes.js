@@ -4,6 +4,7 @@ import Home from './pages/home';
 import Team from './pages/team';
 import Contact from './pages/contact';
 import Support from './pages/support';
+import Storyboard from './pages/storyboard';
 
 export default function Routes() {
   return (
@@ -12,6 +13,7 @@ export default function Routes() {
       <Route path='/team' component={Team} />
       <Route path='/contact' component={Contact} />
       <Route path='/support' component={Support} />
+      <Route path='/story-board' component={Storyboard} />
     </Switch>
   );
 }

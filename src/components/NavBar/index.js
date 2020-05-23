@@ -35,6 +35,9 @@ export default function NavBar() {
           </div>
 
           <div id='routeContent'>
+            <NavLink id='navTitle' to='/story-board'>
+              Story Board
+            </NavLink>
             <NavLink id='navTitle' to='/team'>
               Equipe
             </NavLink>
@@ -63,6 +66,9 @@ export default function NavBar() {
               <img src={logo} alt='logo' id='image' />
             </NavLink>
           </div>
+          <NavLink id='navTitle' to='/story-board' onClick={closeSidebar}>
+            Story Board
+          </NavLink>
           <NavLink id='navTitle' to='/team' onClick={closeSidebar}>
             Equipe
           </NavLink>

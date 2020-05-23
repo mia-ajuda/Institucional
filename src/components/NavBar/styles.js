@@ -22,7 +22,6 @@ export const Navbar = styled.div`
     }
 
     #routeContent {
-      width: 35em;
 
       #navTitle {
         color: #4b8ab9;

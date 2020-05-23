@@ -13,6 +13,7 @@ export const Container = styled.div`
     height: 90vh;
     margin: 0 auto;
     align-items: center;
+    padding-top: 10rem;
 
     #main-text {
       text-align: center;
@@ -69,9 +70,8 @@ export const Container = styled.div`
   }
 
   .title {
-    margin-top: 3rem;
     color: #4b8ab9;
-    margin-bottom: 2rem;
+    padding: 3rem 0;
   }
 
   h3 {
@@ -88,6 +88,8 @@ export const Container = styled.div`
       }
 
       div {
+        margin-top: 10rem;
+        margin-bottom: 2rem;
         width: 100%;
         height: 100%;
         p {
@@ -98,6 +100,9 @@ export const Container = styled.div`
           width: 80%;
         }
       }
+    }
+    .title {
+      margin-top: 10rem;
     }
 
     div,
