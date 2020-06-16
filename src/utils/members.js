@@ -103,7 +103,7 @@ const members = [
     image: Pedro,
   },
   {
-    name: 'Welisson Regis',
+    name: 'Welison Regis',
     image: welisson,
   },
 ];

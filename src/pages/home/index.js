@@ -50,13 +50,13 @@ export default function Home() {
           <p id='main-text'>
             Ajude pessoas perto de você e espalhe amor pelo mundo
           </p>
-          <button
+          <a
+            target='blank'
+            href='https://play.google.com/store/apps/details?id=com.unb.miaajuda'
             className='android-btn'
-            disabled
             style={{
               backgroundColor: '#3b6f96',
-              color: '#bbb',
-              cursor: 'not-allowed',
+              textDecoration: 'none',
             }}
           >
             <img
@@ -65,9 +65,8 @@ export default function Home() {
               alt='androind'
               style={{ width: '1.5rem', marginRight: '1rem' }}
             />
-            {/* INSTALE NO ANDROID */}
-            EM BREVE
-          </button>
+            INSTALE NO ANDROID
+          </a>
         </div>
         <img
           id='header-img'
@@ -147,12 +146,14 @@ export default function Home() {
             conversar! Recite um poema! Doe um alimento! Colabore como queira! O
             importante é ajudar!
           </p>
-          <button
+          <a
+            target='blank'
+            href='https://play.google.com/store/apps/details?id=com.unb.miaajuda'
             className='android-btn'
             style={{
               backgroundColor: '#e0d867',
-              color: '#3b6f96',
-              cursor: 'not-allowed',
+              width: '25%',
+              textDecoration: 'none',
             }}
           >
             <img
@@ -161,9 +162,8 @@ export default function Home() {
               alt='androind'
               style={{ width: '1.5rem', marginRight: '1rem' }}
             />
-            {/* INSTALE NO ANDROID */}
-            EM BREVE
-          </button>
+            INSTALE NO ANDROID
+          </a>
         </HomeSection>
         <Footer></Footer>
       </HomeBackground>
