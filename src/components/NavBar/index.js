@@ -44,6 +44,9 @@ export default function NavBar() {
             <NavLink id='navTitle' to='/contact'>
               Contato
             </NavLink>
+            <NavLink id='navTitle' to='/doar'>
+              Doar
+            </NavLink>
             <NavLink id='navTitle' to='/support'>
               Apoio
             </NavLink>
@@ -74,6 +77,9 @@ export default function NavBar() {
           </NavLink>
           <NavLink id='navTitle' to='/contact' onClick={closeSidebar}>
             Contato
+          </NavLink>
+          <NavLink id='navTitle' to='/doar' onClick={closeSidebar}>
+            Doar
           </NavLink>
           <NavLink id='navTitle' to='/support' onClick={closeSidebar}>
             Apoio
