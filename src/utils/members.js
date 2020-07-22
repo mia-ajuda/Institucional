@@ -19,8 +19,12 @@ import Guilherme from '../assets/images/membros/guilherme.jpg';
 import LeoSantos from '../assets/images/membros/leosantos.jpg';
 import Kamilla from '../assets/images/membros/kamilla.jpg';
 import Fernando from '../assets/images/membros/fernando.jpg';
+import Danillo from '../assets/images/membros/danillo.jpg';
+import DudaMelo from '../assets/images/membros/dudaMelo.png';
+import Joao from '../assets/images/membros/joao.jpg';
+import PedroLima from '../assets/images/membros/pedroLima.jpg';
 
-const members = [
+export const currentMembers = [
   {
     name: 'Prof Milene Serrano',
     image: Milene,
@@ -35,6 +39,57 @@ const members = [
     image: Fernando,
   },
   {
+    name: 'Dâmaso Pereira',
+    image: junior,
+  },
+  {
+    name: 'Danillo Souza',
+    image: Danillo,
+  },
+  {
+    name: 'Duda Melo',
+    image: DudaMelo,
+  },
+
+  {
+    name: 'Ésio Freitas',
+    image: esio,
+  },
+  {
+    name: 'Gabriel Pereira',
+    image: Gabriel,
+  },
+
+  {
+    name: 'Ivan Diniz',
+    image: ivan,
+  },
+  {
+    name: 'João Pedro',
+    image: Joao,
+  },
+
+  {
+    name: 'Leonardo Santos',
+    image: LeoSantos,
+  },
+
+  {
+    name: 'Pedro Féo',
+    image: Pedro,
+  },
+  {
+    name: 'Pedro Lima',
+    image: PedroLima,
+  },
+  {
+    name: 'Welison Regis',
+    image: welisson,
+  },
+];
+
+export const oldMembers = [
+  {
     name: 'Elias Bernardo',
     image: bernado,
   },
@@ -47,14 +102,6 @@ const members = [
     image: EduardoLima,
   },
   {
-    name: 'Ésio Freitas',
-    image: esio,
-  },
-  {
-    name: 'Gabriel Pereira',
-    image: Gabriel,
-  },
-  {
     name: 'Guilherme Rosa',
     image: Guilherme,
   },
@@ -63,16 +110,8 @@ const members = [
     image: hugo,
   },
   {
-    name: 'Ivan Diniz',
-    image: ivan,
-  },
-  {
     name: 'Joberth Costa',
     image: jobert,
-  },
-  {
-    name: 'Dâmaso Pereira',
-    image: junior,
   },
   {
     name: 'Kamilla Souza',
@@ -81,10 +120,6 @@ const members = [
   {
     name: 'Leonardo Gomes',
     image: leo,
-  },
-  {
-    name: 'Leonardo Santos',
-    image: LeoSantos,
   },
   {
     name: 'Lucas Souza',
@@ -98,14 +133,4 @@ const members = [
     name: 'Matheus Estanislau',
     image: matheus,
   },
-  {
-    name: 'Pedro Féo',
-    image: Pedro,
-  },
-  {
-    name: 'Welison Regis',
-    image: welisson,
-  },
 ];
-
-export default members;

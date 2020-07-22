@@ -31,7 +31,7 @@ export const Container = styled.div`
       }
     }
 
-    #membersContent {
+    .membersContent {
       margin-top: 3em;
       display: flex;
       flex-direction: column;

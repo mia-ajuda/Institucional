@@ -2,16 +2,16 @@ import React from 'react';
 
 import { Container } from './styles';
 
-import HoverPicture from '../../components/HoverPicture/index'
+import HoverPicture from '../../components/HoverPicture/index';
 
 import teamImage from '../../assets/images/team.svg';
-import members from '../../utils/members';
+import { currentMembers, oldMembers } from '../../utils/members';
 
 export default function Team() {
   return (
     <Container>
       <div>
-        <div className="team-area">
+        <div className='team-area'>
           <div id='teamContent'>
             <h3>Equipe</h3>
             <p>
@@ -21,14 +21,22 @@ export default function Team() {
             </p>
           </div>
           <div>
-            <img id="team-img" src={teamImage} alt='team' />
+            <img id='team-img' src={teamImage} alt='team' />
           </div>
         </div>
-        <div id='membersContent'>
-          <h3>Membros</h3>
+        <div className='membersContent'>
+          <h3>Membros Atuais</h3>
           <div className='card-container'>
-            {members.map((member, idx) => (
-              <HoverPicture name={member.name} image={member.image} key={idx}/>
+            {currentMembers.map((member, idx) => (
+              <HoverPicture name={member.name} image={member.image} key={idx} />
+            ))}
+          </div>
+        </div>
+        <div className='membersContent'>
+          <h3>Membros Anteriores</h3>
+          <div className='card-container'>
+            {oldMembers.map((member, idx) => (
+              <HoverPicture name={member.name} image={member.image} key={idx} />
             ))}
           </div>
         </div>
