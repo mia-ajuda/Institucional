@@ -45,7 +45,7 @@ export default function NavBar() {
               Contato
             </NavLink>
             <NavLink id='navTitle' to='/doar'>
-              Doar
+              Redes Sociais
             </NavLink>
             <NavLink id='navTitle' to='/support'>
               Apoio

@@ -163,6 +163,7 @@ export const HomeSection = styled.section`
   text-align: center;
   padding: 0rem 0 1.5rem 0;
   color: #f7f7f7;
+  margin-top: 2rem;
 
   p {
     margin: 3rem auto;
@@ -222,6 +223,29 @@ export const HomeSection = styled.section`
       transition: all 0.5s;
       background: ${darken(0.1, '#f7ef6e')};
       box-shadow: 1px 1px 5px 2px #35353535;
+    }
+  }
+
+  .iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 20%;
+    margin-top: 2rem;
+  }
+
+  .iconsImg {
+    width: 55%;
+    transition: all 200ms ease;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .iconsContainer {
+      width: 40%;
     }
   }
 `;

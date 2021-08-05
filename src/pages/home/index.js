@@ -5,7 +5,7 @@ import {
   HowToUseList,
   HomeSection,
   Footer,
-  HomeBackground,
+  HomeBackground
 } from './styles';
 
 import { NavLink } from 'react-router-dom';
@@ -16,6 +16,8 @@ import card3 from '../../assets/images/card3.svg';
 import card4 from '../../assets/images/card4.svg';
 import logoTitle from '../../assets/images/logotitle.png';
 import headerImg from '../../assets/images/headerimg.svg';
+import instagramImg from '../../assets/images/socialMedias/instagram.png';
+import youtubeImg from '../../assets/images/socialMedias/youtube.png';
 
 import video from '../../assets/video.mp4';
 
@@ -164,6 +166,18 @@ export default function Home() {
             />
             INSTALE NO ANDROID
           </a>
+        </HomeSection>
+
+        <HomeSection>
+          <h3>Nossas Redes Sociais!</h3>
+          <div className='iconsContainer'>
+            <a rel="noopener noreferrer" href="https://www.instagram.com/miaajuda/" target="_blank">
+              <img className='iconsImg' src={instagramImg} alt='instagram' />
+            </a>
+            <a rel="noopener noreferrer" href="https://www.youtube.com/channel/UCD_G2U7UEyUXMP7QGisx7sg" target="_blank">
+              <img className='iconsImg' src={youtubeImg} alt='instagram' />
+            </a>
+          </div>
         </HomeSection>
         <Footer></Footer>
       </HomeBackground>

@@ -27,7 +27,7 @@ export const Navbar = styled.div`
         color: #4b8ab9;
         font-weight: bold;
         margin-left: 2em;
-        font-size: 1.8em;
+        font-size: 1.6em;
         text-decoration: none;
       }
 
