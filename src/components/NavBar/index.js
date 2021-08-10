@@ -44,7 +44,7 @@ export default function NavBar() {
             <NavLink id='navTitle' to='/contact'>
               Contato
             </NavLink>
-            <NavLink id='navTitle' to='/doar'>
+            <NavLink id='navTitle' to='/social-media'>
               Redes Sociais
             </NavLink>
             <NavLink id='navTitle' to='/support'>
@@ -78,8 +78,8 @@ export default function NavBar() {
           <NavLink id='navTitle' to='/contact' onClick={closeSidebar}>
             Contato
           </NavLink>
-          <NavLink id='navTitle' to='/doar' onClick={closeSidebar}>
-            Doar
+          <NavLink id='navTitle' to='/social-media' onClick={closeSidebar}>
+            SocialMedia
           </NavLink>
           <NavLink id='navTitle' to='/support' onClick={closeSidebar}>
             Apoio
