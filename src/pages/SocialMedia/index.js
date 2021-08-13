@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Container } from './styles';
-import socialMediaInstagram from '../../assets/images/socialMediaInstagram.png';
 
+import socialMediaInstagram from '../../assets/images/socialMediaInstagram.png';
 import socialMediaYoutube from '../../assets/images/socialMediaYoutube.png';
 import instagramImg from '../../assets/images/socialMedias/instagram.png';
 import youtubeImg from '../../assets/images/socialMedias/youtube.png';
@@ -38,12 +38,12 @@ function SocialMedia() {
           </a>
         </div>
         <div>
-          <img style={{ width: '28rem' }} src={socialMediaInstagram} alt='contact' />
+          <img style={{ width: '28rem' }} src={socialMediaInstagram} alt='instagram' />
         </div>
       </div>
       <div>
         <div>
-          <img style={{ width: '30rem' }} src={socialMediaYoutube} alt='contact' />
+          <img style={{ width: '30rem' }} src={socialMediaYoutube} alt='youtube' />
         </div>
         <div id='contactContentRight'>
           <h3>Mia Ajuda no YouTube!</h3>

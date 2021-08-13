@@ -50,6 +50,9 @@ export default function NavBar() {
             <NavLink id='navTitle' to='/support'>
               Apoio
             </NavLink>
+            <NavLink id='navTitle' to='/midia'>
+              Mídia
+            </NavLink>
           </div>
         </div>
       </Navbar>
