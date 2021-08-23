@@ -53,6 +53,9 @@ export default function NavBar() {
             <NavLink id='navTitle' to='/midia'>
               Mídia
             </NavLink>
+            <NavLink id='navTitle' to='/know-more'>
+              Saiba Mais
+            </NavLink>
           </div>
         </div>
       </Navbar>

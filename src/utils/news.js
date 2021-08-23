@@ -79,7 +79,7 @@ export const news = [
       'No ar em 29/07/2021, às 19hrs:44min',
       'Repórter: Maria Ferreira'
     ],
-    link: '',
+    link: 'https://drive.google.com/file/d/1PpmIBV4XE4MFGcAvXfr4rQgv2CbTsmml/view?usp=sharing',
     logo: logoCBN
   },
 ]

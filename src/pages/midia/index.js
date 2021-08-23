@@ -3,7 +3,7 @@ import React  from 'react';
 import { Container } from './styles';
 import { news } from '../../utils/news';
 
-import socialMediaYoutube from '../../assets/images/socialMediaYoutube.png';
+import MidiaImg from '../../assets/images/midiaImg.png';
 import NewsContainer from '../../components/NewsContainer';
 
 export default function Midia() {
@@ -20,7 +20,7 @@ export default function Midia() {
           </p>
         </div>
         <div>
-          <img style={{ width: '28rem' }} src={socialMediaYoutube} alt='youtube' />
+          <img style={{ width: '28rem' }} src={MidiaImg} alt='midia' />
         </div>
       </section>
       <section className='news-section'>

@@ -7,6 +7,7 @@ import Support from './pages/support';
 import Storyboard from './pages/storyboard';
 import SocialMedia from './pages/SocialMedia';
 import Midia from './pages/midia'
+import KnowMore from './pages/KnowMore';
 
 export default function Routes() {
   return (
@@ -18,6 +19,7 @@ export default function Routes() {
       <Route path='/support' component={Support} />
       <Route path='/story-board' component={Storyboard} />
       <Route path='/midia' component={Midia} />
+      <Route path='/know-more' component={KnowMore} />
     </Switch>
   );
 }

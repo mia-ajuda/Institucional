@@ -31,7 +31,9 @@ export default function NewsContainer({
           </div>
           <div id='newsLogo'>
             <img
-              src={logo} style={{ width: '15rem' }}
+              src={logo}
+              style={{ width: '15rem' }}
+              alt='newsImage'
             />
           </div>
         </section>
