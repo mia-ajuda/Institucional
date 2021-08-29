@@ -60,6 +60,17 @@ export const Container = styled.div`
       .media-button {
         align-self: flex-end;
       }
+
+      .emailLink {
+        display: inline-block;
+        padding: 1em 0em;
+        text-align: right;
+        font-size: 2em;
+        margin-top: .8rem;
+        color: #4b8ab9;
+        font-weight: bold
+      }
+
     }
 
     #logo {

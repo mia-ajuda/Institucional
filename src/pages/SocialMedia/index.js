@@ -6,10 +6,25 @@ import socialMediaInstagram from '../../assets/images/socialMediaInstagram.png';
 import socialMediaYoutube from '../../assets/images/socialMediaYoutube.png';
 import instagramImg from '../../assets/images/socialMedias/instagram.png';
 import youtubeImg from '../../assets/images/socialMedias/youtube.png';
+import contactImage from '../../assets/images/contact.svg';
 
 function SocialMedia() {
   return (
     <Container>
+      <div id='contactContainer'>
+        <div>
+          <img src={contactImage} alt='contact' />
+        </div>
+        <div id='contactContentRight'>
+          <h3>Contato</h3>
+          <p>
+            Quer sugerir, elogiar, colaborar? 
+            Entre em contato com o Mia Ajuda, e faça parte dessa rede solidária!
+          </p>
+          <a className="emailLink" href = "mailto: miaajudaunb@gmail.com">miaajudaunb@gmail.com</a>
+        </div>
+      </div>
+
       <div>
         <div id='contactContent'>
           <h3>Mia Ajuda no Instagram!</h3>

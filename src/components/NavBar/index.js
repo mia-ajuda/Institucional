@@ -41,9 +41,6 @@ export default function NavBar() {
             <NavLink id='navTitle' to='/team'>
               Equipe
             </NavLink>
-            <NavLink id='navTitle' to='/contact'>
-              Contato
-            </NavLink>
             <NavLink id='navTitle' to='/social-media'>
               Redes Sociais
             </NavLink>
@@ -80,9 +77,6 @@ export default function NavBar() {
           </NavLink>
           <NavLink id='navTitle' to='/team' onClick={closeSidebar}>
             Equipe
-          </NavLink>
-          <NavLink id='navTitle' to='/contact' onClick={closeSidebar}>
-            Contato
           </NavLink>
           <NavLink id='navTitle' to='/social-media' onClick={closeSidebar}>
             SocialMedia

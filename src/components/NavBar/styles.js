@@ -26,8 +26,8 @@ export const Navbar = styled.div`
       #navTitle {
         color: #4b8ab9;
         font-weight: bold;
-        margin-left: 2em;
-        font-size: 1.6em;
+        margin-left: 1.6em;
+        font-size: 1.2em;
         text-decoration: none;
       }
 
