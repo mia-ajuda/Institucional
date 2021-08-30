@@ -9,7 +9,7 @@ export default function LogoCard({ name, link, logo }) {
         <img
           src={logo}
           alt='logo'
-          style={{ width: '80%'}}
+          style={{ width: '13rem'}}
         />
       </div>
       <div className='link-container'>
