@@ -41,14 +41,17 @@ export default function NavBar() {
             <NavLink id='navTitle' to='/team'>
               Equipe
             </NavLink>
-            <NavLink id='navTitle' to='/contact'>
-              Contato
-            </NavLink>
-            <NavLink id='navTitle' to='/doar'>
-              Doar
+            <NavLink id='navTitle' to='/social-media'>
+              Redes Sociais
             </NavLink>
             <NavLink id='navTitle' to='/support'>
               Apoio
+            </NavLink>
+            <NavLink id='navTitle' to='/midia'>
+              Mídia
+            </NavLink>
+            <NavLink id='navTitle' to='/know-more'>
+              Saiba Mais
             </NavLink>
           </div>
         </div>
@@ -75,11 +78,8 @@ export default function NavBar() {
           <NavLink id='navTitle' to='/team' onClick={closeSidebar}>
             Equipe
           </NavLink>
-          <NavLink id='navTitle' to='/contact' onClick={closeSidebar}>
-            Contato
-          </NavLink>
-          <NavLink id='navTitle' to='/doar' onClick={closeSidebar}>
-            Doar
+          <NavLink id='navTitle' to='/social-media' onClick={closeSidebar}>
+            SocialMedia
           </NavLink>
           <NavLink id='navTitle' to='/support' onClick={closeSidebar}>
             Apoio

@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 import HoverPicture from '../../components/HoverPicture/index';
 
-import teamImage from '../../assets/images/team.svg';
+import teamImage from '../../assets/images/team.png';
 import { currentMembers, oldMembers } from '../../utils/members';
 
 export default function Team() {
